@@ -1,0 +1,41 @@
+{
+  // "header_image": "http://placekitten.com/g/600/600",
+  "heading_text": "Link Tomb",
+  "description": "Here is a link graveyard.",
+  "colors": {
+    "body_bg_color": "#f7d7dd",
+    "card_text_color": "white",
+    "card_bg_color": "#836953",
+    "heading_text_color": "#388697",
+    "description_text_color": "#E58E1C",
+    "logo_svg_fill_color": "#E58E1C"
+  },
+  "social_media": [
+    {
+      "type": "Instagram",
+      "username": "thiselizabethchow"
+    },
+    {
+      "type": "LinkedIn",
+      "username": "elizabeth-chow-268135127"
+    },
+    {
+      "type": "GitHub",
+      "username": "elizabethchow"
+    }
+  ],
+  "links": [
+    {
+      "title": "Elizabeth Chow's Portfolio Page",
+      "url": "https://www.elizabethchow.dev"
+    },
+    {
+      "title": "Brighter Side Studio",
+      "url": "https://www.brightersidestudio.com"
+    },
+    {
+      "title": "Wilder & Weathered",
+      "url": "https://www.wilderandweathered.com"
+    }
+  ]
+}

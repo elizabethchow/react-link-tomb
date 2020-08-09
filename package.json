@@ -1,0 +1,29 @@
+{
+  "name": "react-link-tomb",
+  "version": "1.0.0",
+  "description": "Customizable links page built with React and Parcel",
+  "main": "index.js",
+  "author": "Elizabeth Chow",
+  "license": "MIT",
+  "dependencies": {
+    "@svgr/parcel-plugin-svgr": "^5.4.0",
+    "ncp": "^2.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build --public-url ./ ./src/index.html",
+    "postbuild": "ncp ./public ./dist --filter '**/*.*'"
+  }
+}

@@ -1,0 +1,124 @@
+@import "normalize";
+@import "typography";
+
+:root {
+  // Default variables
+  --body-bg-color: #f7d7dd;
+  --card-text-color: white;
+  --card-bg-color: #836953;
+  --heading-text-color: #388697;
+  --description-text-color: #e58e1c;
+  --logo-svg-fill-color: #e58e1c;
+}
+
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5em;
+  margin-top: 30px;
+  background-color: var(--body-bg-color);
+
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.boxshadow {
+  box-shadow: 0 1.3px 1.7px -6px rgba(0, 0, 0, 0.043),
+    0 3.4px 4.3px -6px rgba(0, 0, 0, 0.062),
+    0 6.9px 8.9px -6px rgba(0, 0, 0, 0.078),
+    0 14.2px 18.3px -6px rgba(0, 0, 0, 0.097),
+    0 39px 50px -6px rgba(0, 0, 0, 0.14);
+}
+
+// Header styles -------------->
+#header-img {
+  // max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img,
+  svg {
+    max-width: 400px;
+    height: 200px;
+  }
+
+  svg {
+    path {
+      fill: var(--logo-svg-fill-color);
+    }
+  }
+}
+
+h1 {
+  color: var(--heading-text-color);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.description {
+  border-radius: 2px;
+  color: var(--description-text-color);
+  margin: 0px;
+  line-height: 2em;
+  font-size: 18px;
+}
+
+// END Header styles ------------>
+
+// Card styles -------------->
+.card-wrapper {
+  background-color: var(--card-bg-color);
+  margin: 20px;
+  border-radius: 2.3px;
+  transition: opacity 0.6s;
+
+  a {
+    color: var(--card-text-color);
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    text-decoration: none;
+    transition: opacity 1.6s;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.card-wrapper:hover {
+  opacity: 0.9;
+}
+
+// END Card styles ------------>
+
+// Footer styles -------------->
+.footer-wrapper {
+  margin: 60px 0;
+
+  a + a {
+    margin-left: 30px;
+  }
+
+  a {
+    transition: opacity 0.6s;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+
+  #instagram,
+  #linkedin,
+  #github {
+    color: #e58e1c;
+  }
+
+  svg {
+    height: 60px;
+  }
+}
+
+// END Footer styles ------------>
