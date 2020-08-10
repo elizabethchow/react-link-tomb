@@ -30,7 +30,7 @@ Customize the content in `./data/data.json`.
 
 * Website: elizabethchow.dev
 * Github: [@elizabethchow](https://github.com/elizabethchow)
-* LinkedIn: [@elizabeth-chow-268135127](https://linkedin.com/in/elizabeth-chow-268135127)
+* LinkedIn: [@thiselizabethchow](https://linkedin.com/in/thiselizabethchow)
 * Instagram: [@thiselizabethchow](https://instagram.com/thiselizabethchow)
 ## Show your support
 
